@@ -1,4 +1,26 @@
 .border-box {
   border-color: lightgrey;
   border-width: thin;
+  border-style: solid;
+  margin: 10px;
+}
+
+.relative {
+  display: inline-block;
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.inner {
+  max-width: 300px;
 }
